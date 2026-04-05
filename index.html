@@ -105,39 +105,8 @@
 <p><a href=https://maps.app.goo.gl/BQwzU4xvkPidEpvz5?g_st=ic">Access</a></p>
 
 <div onclick="toggleText()" style="margin-top:40px; cursor:pointer;">
-  <p>Journal</p>
-</div>
 
-<div style="margin-top:40px;">
-  <p>Journal</p>
-
-  <!-- タイトル一覧 -->
-  <p onclick="showPost('post1')" style="cursor:pointer;">2026.04.06</p>
-  <p onclick="showPost('post2')" style="cursor:pointer;">2026.04.05</p>
-
-  <!-- 記事内容 -->
-  <div id="post1" class="post" style="display:none; margin-top:20px;">
-    <p>最近入荷したアイテムいい感じ。</p>
-  </div>
-
-  <div id="post2" class="post" style="display:none; margin-top:20px;">
-    <p>夜の方が服は良く見える気がする。</p>
-  </div>
-</div>
-
-<script>
-function showPost(id) {
-  var posts = document.getElementsByClassName("post");
-
-  for (var i = 0; i < posts.length; i++) {
-    posts[i].style.display = "none";
-  }
-
-  document.getElementById(id).style.display = "block";
-}
-</script>
-}
-</script>
+  <a href="post1.html">2026.04.06</a>
   
 </div>
 </body>
