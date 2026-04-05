@@ -104,6 +104,26 @@
 
 <p><a href=https://maps.app.goo.gl/BQwzU4xvkPidEpvz5?g_st=ic">Access</a></p>
 
+<div onclick="toggleText()" style="margin-top:40px; cursor:pointer;">
+  <p>Journal</p>
+</div>
+
+<div id="text" style="display:none; margin-top:20px;">
+  <p>2026/4/6</p>
+  <p>Noiseのホームページができました！</p>
+</div>
+
+<script>
+function toggleText() {
+  var x = document.getElementById("text");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+  
 </div>
 </body>
 </html>
