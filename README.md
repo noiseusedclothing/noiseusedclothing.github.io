@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Noise</title>
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      color: white;
+      font-family: sans-serif;
+    }
+
+    .container {
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 3em;
+      letter-spacing: 8px;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 90%;
+      max-width: 500px;
+      margin: 20px 0;
+    }
+
+    p {
+      color: #aaa;
+      font-size: 0.9em;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      border-bottom: 1px solid white;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>NOISE</h1>
+
+  <img src="image.jpg" alt="main">
+
+  <p>Used Clothing / Mode</p>
+
+  <p><a href="#">Instagram</a></p>
+</div>
+
+</body>
+</html>
