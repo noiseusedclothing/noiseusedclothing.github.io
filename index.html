@@ -28,6 +28,33 @@
   color: #ccc;
 }
 
+    <div class="slider">
+  <a href="post1.html"><img src="IMG_4237.jpeg"></a>
+  <a href="post2.html"><img src="IMG_4237.jpeg"></a>
+  <a href="post3.html"><img src="IMG_4237.jpeg"></a>
+</div>
+
+.slider {
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
+  padding: 20px;
+  scroll-snap-type: x mandatory;
+}
+
+.slider img {
+  width: 250px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+<div class="slider">
+  <a href="post1.html">
+    <img src="IMG_4237.jpeg">
+    <p>2026.04.06</p>
+  </a>
+</div>
+    
     img {
       width: 95%;
       max-width: 600px;
